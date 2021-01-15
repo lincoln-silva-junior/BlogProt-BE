@@ -1,0 +1,25 @@
+{
+  "name": "BlogProt-BE",
+  "version": "1.0.0",
+  "description": "Repositório da aplicação NodeJS Backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lincoln-silva-junior/BlogProt-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lincoln-silva-junior/BlogProt-BE/issues"
+  },
+  "homepage": "https://github.com/lincoln-silva-junior/BlogProt-BE#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  }
+}
