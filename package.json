@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/lincoln-silva-junior/BlogProt-BE#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "debug": "^4.3.1",
     "express": "^4.17.1",
-    "http": "0.0.1-security"
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.11.12"
   }
 }
