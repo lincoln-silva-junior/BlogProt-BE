@@ -4,6 +4,6 @@ global.EMAIL_TMPL = 'Olá, <strong>{0}</strong>, seja bem vindo ao Blog Protóti
 module.exports = {    
     connectionString: 'TBD',
     sendgridKey: 'TBD',
-    containerConnectionString: 'TBD'
+    containerConnectionString: 'Teste'
 }
 
