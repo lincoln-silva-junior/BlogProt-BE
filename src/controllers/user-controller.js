@@ -25,7 +25,7 @@ exports.post = async(req, res, next) => {
             name: req.body.name,
             email: req.body.email,
             password: md5(req.body.password + global.SALT_KEY),
-            roles: ["user"]
+            roles: req.body.roles
         });
 
         emailService.send(req.body.email, 'Bem Vindo ao Node Store', global.EMAIL_TMPL.replace('{0}', req.body.name))
@@ -35,7 +35,8 @@ exports.post = async(req, res, next) => {
         });
     } catch (e) {
         res.status(500).send({
-            message: 'Falha ao processar sua requisição'
+            //message: 'Falha ao processar sua requisição'
+            message: e.message
         });
     }        
 }
